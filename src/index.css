@@ -1,0 +1,39 @@
+:root {
+  
+  color-scheme: light dark;
+  --primary-text: F4F4F4;
+  --primary-bg: #0077BE;
+  --primary-detail: #8b4513;
+  --secondary-bg: #758918;
+  --secondary-detail: #a9a9a9;
+  
+  /* Font details */
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  
+  --font-large: 2.3rem;
+  --font-medium: 1.8rem;
+  --font-small: 1.2rem;
+  --font-subtitle: .8rem;
+
+  background: var(--primary-bg) url('../src/assets/images/whale_watching.jpeg') scroll no-repeat center top;
+  background-size: cover;
+}
+
+/* Mobile */
+@media (max-width: 480px) {}
+
+/* Extra small devices */
+@media (min-width: 481px) and (max-width: 767px) {}
+
+/* Small tablets */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* Large tablets/laptops */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Desktops */
+@media (min-width: 1200px) and (max-width: 1919px) {}
+
+/* Extra large screens */
+@media (min-width: 1920px) {}

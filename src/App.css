@@ -1,0 +1,8 @@
+#root {
+  margin: 0 1rem;
+  padding: 2rem;
+  box-sizing: border-box;
+  font-size: 62,5%;
+
+  color: var(--primary-text);
+}
