@@ -20,6 +20,12 @@
   background-size: cover;
 }
 
+a {
+  color: var(--primary-bg);
+  font-weight: 600;
+  text-decoration: none;
+}
+
 /* Mobile */
 @media (max-width: 480px) {}
 
