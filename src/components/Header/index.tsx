@@ -2,7 +2,7 @@
 
 import { HeaderContainer, Nav, Item } from "./Header.styled";
 
-const Header = () => {
+export const Header = () => {
   return (
     <HeaderContainer>
       <div>Logo</div>
@@ -15,5 +15,3 @@ const Header = () => {
     </HeaderContainer>
   );
 };
-
-export default Header;

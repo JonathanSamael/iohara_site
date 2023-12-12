@@ -1,7 +1,7 @@
 import { FeaturedText, FeaturedDetails, DescriptionText, SocialMedia } from "./FeaturedBanner.styled";
 import twitter from '../../assets/images/twitter_5968830.png';
 
-const FeaturedBanner = () => {
+export const FeaturedBanner = () => {
   return (
     <>
       <FeaturedDetails>
@@ -18,5 +18,3 @@ const FeaturedBanner = () => {
     </>
   );
 };
-
-export default FeaturedBanner;
